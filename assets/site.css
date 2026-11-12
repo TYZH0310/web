@@ -40,13 +40,32 @@ a:hover { text-decoration: underline; }
   display: flex; align-items: center; justify-content: space-between;
   gap: 16px; min-height: 60px;
 }
-.brand { color: #fff; display: flex; flex-direction: column; line-height: 1.25; }
+.brand { color: #fff; font-size: 18px; font-weight: 700; letter-spacing: .6px; }
 .brand:hover { text-decoration: none; opacity: .9; }
-.brand .brand-main { font-size: 17px; font-weight: 700; letter-spacing: .5px; }
-.brand .brand-sub { font-size: 11px; font-weight: 500; opacity: .85; margin-top: 1px; }
 .nav { display: flex; gap: 18px; }
 .nav a { color: rgba(255,255,255,.92); font-size: 14px; padding: 6px 2px; }
 .nav a:hover { color: #fff; text-decoration: none; border-bottom: 2px solid #fff; }
+
+/* 二级栏目菜单栏：紧贴蓝色顶栏下方的全宽横条 */
+.tabbar {
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+}
+.tabbar-inner {
+  display: flex; gap: 6px;
+  overflow-x: auto; -webkit-overflow-scrolling: touch;
+}
+.tab {
+  appearance: none; -webkit-appearance: none;
+  border: 0; background: transparent; cursor: pointer;
+  font-family: inherit; font-size: 14.5px; font-weight: 600;
+  color: var(--muted); white-space: nowrap;
+  padding: 14px 18px 12px; margin-bottom: -1px;
+  border-bottom: 3px solid transparent;
+}
+.tab:hover { color: var(--primary); }
+.tab.active { color: var(--primary); border-bottom-color: var(--primary); }
+.tab:focus-visible { outline: 2px solid var(--primary); outline-offset: -4px; border-radius: 4px; }
 
 /* 页头 */
 .page-head { padding: 30px 0 22px; }
@@ -65,20 +84,18 @@ a:hover { text-decoration: underline; }
 .btn.ghost { background: var(--surface); color: var(--primary); border: 1px solid var(--border); }
 .btn.ghost:hover { background: #eef2ff; }
 
-/* 双栏 */
-.columns {
-  display: grid; grid-template-columns: 2fr 1fr; gap: 22px;
-  align-items: start; padding-bottom: 36px;
-}
-.col {
-  background: transparent; min-width: 0;
-}
+/* 栏目面板（点菜单切换，同时只显示一个；无 JS 时两个依次堆叠） */
+.tabs-panels { padding-bottom: 36px; }
+.pane { background: transparent; min-width: 0; }
+.pane[hidden] { display: none; }
 .col-head {
   display: flex; align-items: baseline; justify-content: space-between;
-  gap: 12px; padding: 0 2px 12px;
+  gap: 12px; padding: 20px 2px 12px;
 }
 .col-head h2 { margin: 0; font-size: 20px; color: #0f172a; }
 .col-head .count { color: var(--muted); font-size: 13px; }
+/* 半导体内容限制阅读宽度，避免宽屏下卡片被拉得过长 */
+.pane .filters, .pane .sec { max-width: 900px; }
 
 /* 筛选 */
 .filters {
@@ -125,7 +142,7 @@ a:hover { text-decoration: underline; }
 .row p { margin: 0; color: #374151; }
 
 /* 历史上的今天 */
-.history-card { position: sticky; top: 16px; }
+.history-card { max-width: 760px; }
 .badges { display: flex; flex-wrap: wrap; gap: 6px; }
 .badge {
   font-size: 11.5px; padding: 2px 9px; border-radius: 999px;
@@ -160,16 +177,17 @@ a:hover { text-decoration: underline; }
 
 /* 响应式 */
 @media (max-width: 900px) {
-  .columns { grid-template-columns: 1fr; gap: 8px; }
-  .history-card { position: static; }
+  .history-card { max-width: 100%; }
 }
 @media (max-width: 600px) {
   .wrap { width: min(100% - 24px, 1160px); }
   .header-inner { min-height: 54px; }
-  .brand { font-size: 14.5px; }
+  .brand { font-size: 16px; }
   .nav { gap: 12px; }
+  .tab { padding: 13px 14px 11px; font-size: 13.5px; }
   .page-head { padding: 22px 0 16px; }
   .page-head h1 { font-size: 22px; }
+  .col-head { padding: 16px 2px 10px; }
   .col-head h2 { font-size: 18px; }
   .filters { flex-wrap: nowrap; overflow-x: auto; -webkit-overflow-scrolling: touch; }
   .filter { white-space: nowrap; }
