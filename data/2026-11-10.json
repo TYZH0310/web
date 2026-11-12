@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-10",
+  "semiconductor": null,
+  "history": {
+    "schema_version": 1,
+    "date": "2026-11-10",
+    "type": "history",
+    "generated_at": "2026-11-10T09:00:00+08:00",
+    "category": "科技",
+    "event_date": "11-10",
+    "event_year": "1983",
+    "title": "微软在拉斯维加斯COMDEX首次宣布Windows操作系统",
+    "body": "【历史摘要·迁移自往期记录，非原文】与苹果GUI竞争背景、盖茨愿景、1.0延迟两年至1985年上市、提前造势奠定格局。",
+    "word_count": 260,
+    "is_excerpt": true,
+    "migrated": true
+  }
+}

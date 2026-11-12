@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-09",
+  "semiconductor": null,
+  "history": {
+    "schema_version": 1,
+    "date": "2026-11-09",
+    "type": "history",
+    "generated_at": "2026-11-09T09:00:00+08:00",
+    "category": "音乐",
+    "event_date": "11-09",
+    "event_year": "1967",
+    "title": "《滚石》（Rolling Stone）杂志在旧金山创刊",
+    "body": "【历史摘要·迁移自往期记录，非原文】扬·温纳创办、首期列侬封面、刊名来源、办刊理念与文化影响。",
+    "word_count": 260,
+    "is_excerpt": true,
+    "migrated": true
+  }
+}
