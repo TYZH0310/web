@@ -11,6 +11,8 @@
   --mfg: #0891b2;
   --packaging: #ea580c;
   --equipment: #7c3aed;
+  --domestic: #dc2626;
+  --overseas: #0d9488;
   --shadow: 0 1px 3px rgba(20, 40, 80, .06);
 }
 
@@ -133,6 +135,8 @@ a:hover { text-decoration: underline; }
 [data-dir="mfg"] .tag-pill { background: var(--mfg); }
 [data-dir="packaging"] .tag-pill { background: var(--packaging); }
 [data-dir="equipment"] .tag-pill { background: var(--equipment); }
+[data-dir="domestic"] .tag-pill { background: var(--domestic); }
+[data-dir="overseas"] .tag-pill { background: var(--overseas); }
 .row { display: flex; gap: 8px; font-size: 13.2px; margin: 6px 0; }
 .row .label {
   flex: 0 0 auto; color: #b45309; font-weight: 700; font-size: 12px;
@@ -141,8 +145,9 @@ a:hover { text-decoration: underline; }
 .row.reason .label { color: #047857; }
 .row p { margin: 0; color: #374151; }
 
-/* 历史上的今天 */
+/* 历史上的今天（5 个领域卡片纵向排列） */
 .history-card { max-width: 760px; }
+.history-card .badge { text-transform: none; }
 .badges { display: flex; flex-wrap: wrap; gap: 6px; }
 .badge {
   font-size: 11.5px; padding: 2px 9px; border-radius: 999px;

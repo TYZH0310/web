@@ -516,6 +516,7 @@
     "migrated": true,
     "legacy": false
   },
+  "economy": null,
   "history": {
     "schema_version": 1,
     "date": "2026-11-08",

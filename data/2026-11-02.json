@@ -516,5 +516,6 @@
     "migrated": true,
     "legacy": false
   },
+  "economy": null,
   "history": null
 }

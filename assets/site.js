@@ -1,27 +1,41 @@
-/* 栏目切换 + 四方向筛选：渐进增强，无 JS 时两个栏目依次堆叠、所有条目依然可读 */
+/* 栏目切换 + 分面板筛选：渐进增强，无 JS 时三个栏目依次堆叠、所有条目依然可读 */
 (function () {
   'use strict';
 
-  /* ---------- 四方向筛选（半导体面板内） ---------- */
-  function apply(dir) {
-    document.querySelectorAll('.card[data-dir]').forEach(function (card) {
+  /* 每个面板各自的筛选白名单，互不串扰 */
+  var FILTER_DIRS = {
+    semi: ['all', 'design', 'mfg', 'packaging', 'equipment'],
+    economy: ['all', 'domestic', 'overseas']
+  };
+
+  /* ---------- 筛选（限定在所属面板内） ---------- */
+  function apply(paneName, dir) {
+    var pane = document.querySelector('.pane[data-pane="' + paneName + '"]');
+    if (!pane) return;
+    var allowed = FILTER_DIRS[paneName] || ['all'];
+    if (allowed.indexOf(dir) < 0) dir = 'all';
+    pane.querySelectorAll('.card[data-dir]').forEach(function (card) {
       card.hidden = dir !== 'all' && card.getAttribute('data-dir') !== dir;
     });
-    document.querySelectorAll('.filter').forEach(function (btn) {
-      btn.classList.toggle('active', btn.getAttribute('data-dir') === dir);
-      btn.setAttribute('aria-pressed', btn.getAttribute('data-dir') === dir ? 'true' : 'false');
+    pane.querySelectorAll('.filter').forEach(function (btn) {
+      var on = btn.getAttribute('data-dir') === dir;
+      btn.classList.toggle('active', on);
+      btn.setAttribute('aria-pressed', on ? 'true' : 'false');
     });
   }
 
-  function currentDir() {
+  function dirFromUrl(paneName) {
     var v = new URLSearchParams(window.location.search).get('dir');
-    return ['all', 'design', 'mfg', 'packaging', 'equipment'].indexOf(v) >= 0 ? v : 'all';
+    var allowed = FILTER_DIRS[paneName] || ['all'];
+    return allowed.indexOf(v) >= 0 ? v : 'all';
   }
 
   document.querySelectorAll('.filter').forEach(function (btn) {
     btn.addEventListener('click', function () {
+      var pane = btn.closest('.pane');
+      var paneName = pane ? pane.getAttribute('data-pane') : 'semi';
       var dir = btn.getAttribute('data-dir') || 'all';
-      apply(dir);
+      apply(paneName, dir);
       try {
         var url = new URL(window.location.href);
         if (dir === 'all') { url.searchParams.delete('dir'); }
@@ -31,14 +45,12 @@
     });
   });
 
-  apply(currentDir());
-
-  /* ---------- 栏目切换：半导体日报 / 历史上的今天 ---------- */
+  /* ---------- 栏目切换：半导体日报 / 经济日报 / 历史上的今天 ---------- */
   var tabs = Array.prototype.slice.call(document.querySelectorAll('.tab[data-pane-target]'));
   var panes = Array.prototype.slice.call(document.querySelectorAll('.pane[data-pane]'));
   if (!tabs.length || !panes.length) return;
 
-  function valid(name) { return name === 'semi' || name === 'history'; }
+  function valid(name) { return name === 'semi' || name === 'economy' || name === 'history'; }
 
   function fromUrl() {
     var v = new URLSearchParams(window.location.search).get('tab');
@@ -55,6 +67,7 @@
     panes.forEach(function (p) {
       p.hidden = p.getAttribute('data-pane') !== name;
     });
+    apply(name, dirFromUrl(name));
     if (push) {
       try {
         var url = new URL(window.location.href);
@@ -75,5 +88,7 @@
     select(fromUrl(), false);
   });
 
+  /* 初始化：各面板先各自套用筛选，再按 URL 选中栏目 */
+  ['semi', 'economy'].forEach(function (p) { apply(p, dirFromUrl(p)); });
   select(fromUrl(), false);
 })();
