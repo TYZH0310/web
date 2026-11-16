@@ -14,6 +14,10 @@
   --domestic: #dc2626;
   --overseas: #0d9488;
   --ai: #db2777;
+  --tech: #4f46e5;
+  --digital: #0e7490;
+  --sports: #16a34a;
+  --policy: #b45309;
   --shadow: 0 1px 3px rgba(20, 40, 80, .06);
 }
 
@@ -139,6 +143,10 @@ a:hover { text-decoration: underline; }
 [data-dir="domestic"] .tag-pill { background: var(--domestic); }
 [data-dir="overseas"] .tag-pill { background: var(--overseas); }
 [data-dir="industry"] .tag-pill { background: var(--ai); }
+[data-dir="tech"] .tag-pill { background: var(--tech); }
+[data-dir="digital"] .tag-pill { background: var(--digital); }
+[data-dir="sports"] .tag-pill { background: var(--sports); }
+[data-dir="policy"] .tag-pill { background: var(--policy); }
 .row { display: flex; gap: 8px; font-size: 13.2px; margin: 6px 0; }
 .row .label {
   flex: 0 0 auto; color: #b45309; font-weight: 700; font-size: 12px;
