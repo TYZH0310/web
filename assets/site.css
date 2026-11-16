@@ -1,4 +1,4 @@
-/* 半导体日报 · 经济日报 —— 固定浅色主题，无外部依赖 */
+/* 每日新闻汇总（半导体 / 经济 / AI ... 由 categories.json 决定）—— 固定浅色主题，无外部依赖 */
 :root {
   --bg: #f7f8fa;
   --surface: #ffffff;
@@ -13,6 +13,7 @@
   --equipment: #7c3aed;
   --domestic: #dc2626;
   --overseas: #0d9488;
+  --ai: #db2777;
   --shadow: 0 1px 3px rgba(20, 40, 80, .06);
 }
 
@@ -137,6 +138,7 @@ a:hover { text-decoration: underline; }
 [data-dir="equipment"] .tag-pill { background: var(--equipment); }
 [data-dir="domestic"] .tag-pill { background: var(--domestic); }
 [data-dir="overseas"] .tag-pill { background: var(--overseas); }
+[data-dir="industry"] .tag-pill { background: var(--ai); }
 .row { display: flex; gap: 8px; font-size: 13.2px; margin: 6px 0; }
 .row .label {
   flex: 0 0 auto; color: #b45309; font-weight: 700; font-size: 12px;
@@ -149,7 +151,7 @@ a:hover { text-decoration: underline; }
 .row.source a { font-size: 12.5px; word-break: break-all; }
 .row.source .label { color: var(--primary); }
 
-/* 新闻订阅分享卡（深色卡片图，浅色页面容器内展示） */
+/* 新闻订阅分享卡（浅色卡片图，浅色页面容器内展示） */
 .share-card-wrap { margin: 4px 0 18px; }
 .share-card {
   display: block; width: min(100%, 720px); height: auto;
