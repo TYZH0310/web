@@ -1,4 +1,4 @@
-/* 栏目切换 + 分面板筛选：渐进增强，无 JS 时三个栏目依次堆叠、所有条目依然可读 */
+/* 栏目切换 + 分面板筛选：渐进增强，无 JS 时两个栏目依次堆叠、所有条目依然可读 */
 (function () {
   'use strict';
 
@@ -45,12 +45,12 @@
     });
   });
 
-  /* ---------- 栏目切换：半导体日报 / 经济日报 / 历史上的今天 ---------- */
+  /* ---------- 栏目切换：半导体日报 / 经济日报 ---------- */
   var tabs = Array.prototype.slice.call(document.querySelectorAll('.tab[data-pane-target]'));
   var panes = Array.prototype.slice.call(document.querySelectorAll('.pane[data-pane]'));
   if (!tabs.length || !panes.length) return;
 
-  function valid(name) { return name === 'semi' || name === 'economy' || name === 'history'; }
+  function valid(name) { return name === 'semi' || name === 'economy'; }
 
   function fromUrl() {
     var v = new URLSearchParams(window.location.search).get('tab');
