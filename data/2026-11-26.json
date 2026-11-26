@@ -1,0 +1,699 @@
+{
+  "date": "2026-11-26",
+  "semiconductor": {
+    "schema_version": 1,
+    "date": "2026-11-26",
+    "type": "semiconductor",
+    "generated_at": "2026-11-26T08:44:49+08:00",
+    "title": "半导体日报（2026-11-26）· news-digest 精选",
+    "summary": "news-digest 检索整理（2026-11-26），条目均附原文来源",
+    "sections": [
+      {
+        "key": "design",
+        "label": "芯片设计（IC Design）",
+        "items": [
+          {
+            "no": "DESIGN-01",
+            "title": "国创中心发布RC505端侧AI控制芯片，主打存算一体",
+            "event": "国家高端智能化家用电器创新中心11月25日在青岛发布RC505：40nm成熟工艺、存算一体架构，采用“推理+控制”双引擎实现采集、推理、控制单芯片本地闭环，支持断网运行，可助整机BOM成本降低15%—20%，计划年内量产。",
+            "reason": "国产成熟工艺与存算一体结合，为端侧AI控制提供可量产路径。",
+            "source": "https://finance.sina.com.cn/roll/2026-11-26/doc-inizzftt3820779.shtml"
+          },
+          {
+            "no": "DESIGN-02",
+            "title": "流片不确定性重定价，国产GPU四小龙股价集体重挫",
+            "event": "11月25日沐曦股份、摩尔线程、壁仞科技、天数智芯集体下跌，壁仞收跌24.71%、沐曦跌11.15%创上市新低；BIS临时最终规则将管制延伸至远程算力与代工封测环节，市场对Fabless企业先进制程流片排期与获批节奏重新评估。",
+            "reason": "供给端合规与代工审查成为国产算力链定价新变量。",
+            "source": "https://news.qq.com/rain/a/20261126A04WI800"
+          },
+          {
+            "no": "DESIGN-03",
+            "title": "群联在SC26展示计算存储SSD架构，内置NPU与64GB内存",
+            "event": "群联在SC26披露在研计算存储SSD，把36,800 DMIPS的NPU与64GB、130GB/s工作内存放进企业级SSD，支持PyTorch、vLLM等框架，称对合适负载可减少10至100倍数据搬运；产品名称、接口与出货时间均未公布。",
+            "reason": "存储近端计算尝试缓解AI数据搬运瓶颈，但规格与收益仍待验证。",
+            "source": "https://ainewstodays.com/phison-computational-storage-ssd-npu-64gb-memory-explainer"
+          },
+          {
+            "no": "DESIGN-04",
+            "title": "服务器CPU供需失衡，英特尔与AMD拟涨价10%—15%",
+            "event": "据KeyBanc数据，受超大规模云厂商采购推动，英特尔与AMD 2026全年服务器CPU产能接近售罄，两家公司计划将服务器CPU价格上调10%—15%，以应对原材料与生产成本上涨。",
+            "reason": "CPU从GPU辅助角色转向系统关键环节，成本变化将传导至整机BOM。",
+            "source": "http://shjssemi.com/case/106135.html"
+          },
+          {
+            "no": "DESIGN-05",
+            "title": "华为将在ISSCC 2027披露自研HBM与逻辑堆叠方案",
+            "event": "IEEE公布的ISSCC 2027议程草案显示，华为将展示自研HBM方案：64通道、4096个DQ接口，位宽为HBM4标准2048bit的两倍，并采用5层晶圆对晶圆（W2W）混合键合，同时把内存控制器集成进堆叠结构。",
+            "reason": "国产高带宽存储从容量追赶转向架构自研，牵动高端封装配套。",
+            "source": "https://www.163.com/dy/article/LCL3NCI305198NMR.html"
+          }
+        ]
+      },
+      {
+        "key": "mfg",
+        "label": "晶圆制造·代工·存储",
+        "items": [
+          {
+            "no": "MFG-01",
+            "title": "TrendForce下修2027年NAND产值，1Q27合约价或转跌",
+            "event": "11月25日TrendForce预计2027年NAND产值4193亿美元、同比增29%，但1Q27合约价将转跌0%—5%、2Q27全面下跌；DRAM产值预计1.15万亿美元、同比增69%，涨幅逐季收敛。",
+            "reason": "存储超级周期出现分化信号，合约价拐点影响模组与终端库存策略。",
+            "source": "http://mp.weixin.qq.com/s?__biz=Mzg4MjYyNjI5Nw==&mid=2247483927&idx=1&sn=88ea802b0f3e72bb7185eb60c0a441c4&chksm=ce0727e7655e398d6a39f0bcaf9bf80a038e4d9866e01778f10ff8408784c0786e25d03dc0e2#rd"
+          },
+          {
+            "no": "MFG-02",
+            "title": "苹果首次与三星敲定DRAM长约，2027年上半年生效",
+            "event": "行业日报称苹果首次与三星达成DRAM长期供货协议，2027年上半年生效、期限4至5年并设置最低供应量；三星2027—2029年产能大部分已分配，目标2030年前实现60%—70%长协化。",
+            "reason": "头部客户以长约锁定供给，通用DRAM可流通量进一步收紧。",
+            "source": "http://mp.weixin.qq.com/s?__biz=Mzg4MjYyNjI5Nw==&mid=2247483927&idx=1&sn=88ea802b0f3e72bb7185eb60c0a441c4&chksm=ce0727e7655e398d6a39f0bcaf9bf80a038e4d9866e01778f10ff8408784c0786e25d03dc0e2#rd"
+          },
+          {
+            "no": "MFG-03",
+            "title": "长鑫科技回购上限50亿元，三季度营收同比增逾六倍",
+            "event": "长鑫科技披露回购方案上限25亿至50亿元，其中最高40亿元用于注销；险资进入前十大流通股东，三季度营收1187.14亿元、同比增长613.18%，毛利率89.53%。",
+            "reason": "国产DRAM厂商业绩与资本运作同步推进，产能爬坡进入兑现期。",
+            "source": "http://mp.weixin.qq.com/s?__biz=Mzg4MjYyNjI5Nw==&mid=2247483927&idx=1&sn=88ea802b0f3e72bb7185eb60c0a441c4&chksm=ce0727e7655e398d6a39f0bcaf9bf80a038e4d9866e01778f10ff8408784c0786e25d03dc0e2#rd"
+          },
+          {
+            "no": "MFG-04",
+            "title": "2027年晶圆代工涨价通知传至设计端，中芯产能利用率97.3%",
+            "event": "供应链消息称2027年晶圆代工涨价10%—20%的通知已传至芯片设计端；中芯国际三季度产能利用率达97.3%，华虹产能亦逼近满载，扩产带动前道设备需求。",
+            "reason": "代工议价能力回升，设计公司成本与排产压力同步上升。",
+            "source": "http://mp.weixin.qq.com/s?__biz=Mzg4MjYyNjI5Nw==&mid=2247483927&idx=1&sn=88ea802b0f3e72bb7185eb60c0a441c4&chksm=ce0727e7655e398d6a39f0bcaf9bf80a038e4d9866e01778f10ff8408784c0786e25d03dc0e2#rd"
+          },
+          {
+            "no": "MFG-05",
+            "title": "Counterpoint：三季度全球纯晶圆代工市场同比增长36%",
+            "event": "Counterpoint数据显示，2026年三季度全球纯晶圆代工市场同比增长36%、环比增长13%，AI对先进制程与封装需求超过供给；台积电份额升至75%，三星降至6.4%，中芯国际居第三。",
+            "reason": "AI需求集中度提升，先进制程份额向头部进一步倾斜。",
+            "source": "http://mp.weixin.qq.com/s?__biz=MzAwNDEyOTA5Nw==&mid=2247484326&idx=1&sn=3e5780e2205feeeae62bfd0b03cce2f6&chksm=9a63c2948e5a2498e183ff5e76972a55cf4bd98f06f113f5d243dd054c78e5e4a531c342641b#rd"
+          }
+        ]
+      },
+      {
+        "key": "packaging",
+        "label": "先进封装与封测",
+        "items": [
+          {
+            "no": "PKG-01",
+            "title": "美光新加坡70亿美元HBM封装厂首台设备搬入",
+            "event": "行业日报披露，美光新加坡约70亿美元HBM封装厂首台设备已搬入，2027年产能已有75%售罄；三星HBM基础裸片2027年晶圆需求翻倍至约3万片/月4nm等效。",
+            "reason": "HBM封装产能提前锁定，先进封装设备与材料订单能见度延长。",
+            "source": "http://mp.weixin.qq.com/s?__biz=Mzg4MjYyNjI5Nw==&mid=2247483927&idx=1&sn=88ea802b0f3e72bb7185eb60c0a441c4&chksm=ce0727e7655e398d6a39f0bcaf9bf80a038e4d9866e01778f10ff8408784c0786e25d03dc0e2#rd"
+          },
+          {
+            "no": "PKG-02",
+            "title": "味之素ABF膜对华减供30%并涨价最高30%",
+            "event": "供应链信息显示，味之素ABF载板膜对中国大陆减供约30%、涨价最高30%，高端CCL交期拉长至4至6个月；价值量向ABF载板、高端CCL和2.5D封装转移。",
+            "reason": "关键材料供应收紧成为AI芯片交付的新瓶颈。",
+            "source": "http://mp.weixin.qq.com/s?__biz=Mzg4MjYyNjI5Nw==&mid=2247483927&idx=1&sn=88ea802b0f3e72bb7185eb60c0a441c4&chksm=ce0727e7655e398d6a39f0bcaf9bf80a038e4d9866e01778f10ff8408784c0786e25d03dc0e2#rd"
+          },
+          {
+            "no": "PKG-03",
+            "title": "机构预测2026年全球先进封装市场规模达581亿美元",
+            "event": "中商产业研究院预计，2025年全球先进封装市场约531亿美元，2026年将达581亿美元、2029年达762亿美元，驱动力包括AI加速器订单放量、HBM堆叠向12层以上演进及手机汽车高集成需求。",
+            "reason": "封装从辅助环节升级为决定芯片性能与成本的核心能力。",
+            "source": "https://m.10jqka.com.cn/20261126/c682222464.shtml"
+          },
+          {
+            "no": "PKG-04",
+            "title": "盛合晶微CoWoS月产能约一万片，65nm中介层成瓶颈",
+            "event": "公开资料整理显示，盛合晶微类CoWoS月产能约一万片，客户集中度较高，硅中介层仍卡在65nm节点；券商测算大陆类CoWoS总产能约1.5万至2万片/月，相关产能数据未获公司证实。",
+            "reason": "国产2.5D封装扩产受中介层工艺与良率制约。",
+            "source": "https://www.163.com/dy/article/LCL4TVAS0556GROA.html"
+          },
+          {
+            "no": "PKG-05",
+            "title": "Amkor发布Chiplet选型实战报告，OSAT转向“设计入口”",
+            "event": "全球第二大封测厂Amkor在IMAPS大会报告中将MCM、2.5D TSV、HDFO、Bridge四类方案标注量产/验证/开发状态，6层RDL通过5000次温循，并提出把组装规则前置到客户芯片设计阶段。",
+            "reason": "封测厂竞争从产能转向设计规则与可靠性验证能力。",
+            "source": "https://www.eet-china.com/mp/a541990.html"
+          }
+        ]
+      },
+      {
+        "key": "equipment",
+        "label": "半导体设备与零部件",
+        "items": [
+          {
+            "no": "EQUIP-01",
+            "title": "拓荆科技25亿元收购无锡尚积获证监会注册批复",
+            "event": "拓荆科技收到证监会同意其发行股份购买资产并募集配套资金的注册批复，以25亿元收购无锡尚积100%权益；交易完成后将形成覆盖薄膜沉积、刻蚀、键合、量检测的成套三维集成设备产品线。",
+            "reason": "国产前道设备平台化整合提速，补齐三维集成设备链条。",
+            "source": "https://finance.sina.com.cn/stock/relnews/cn/2026-11-26/doc-inizzftq8201162.shtml"
+          },
+          {
+            "no": "EQUIP-02",
+            "title": "佳能时隔24年重启ArF干式光刻机接单",
+            "event": "佳能11月24日在东京宣布，将于2026年12月上旬开始接受FPA-6300AS6的订单，这是其时隔24年推出的ArF干式扫描式半导体光刻机。",
+            "reason": "成熟制程光刻设备供应新增选项，利好扩产中的晶圆厂。",
+            "source": "https://news.10jqka.com.cn/20261126/c682226230.shtml"
+          },
+          {
+            "no": "EQUIP-03",
+            "title": "二维半导体设备商基元科技完成数千万元天使轮融资",
+            "event": "基元科技完成数千万元天使轮融资，朝晖芯华基金领投；公司产品覆盖二维半导体“生长—转移—检测”全流程，其高温原位光学观测CVD设备为全球唯一商业化同类机型，并自研二维半导体晶圆转移产线装备。",
+            "reason": "后摩尔技术路径从实验室走向产线，设备国产化先行。",
+            "source": "https://www.163.com/dy/article/LCL3NCI305198NMR.html"
+          },
+          {
+            "no": "EQUIP-04",
+            "title": "高凯技术半导体MFC放量，国产份额约55%",
+            "event": "华西证券首次覆盖报告显示，高凯技术2021年推出首款国产半导体级压电式MFC后，气体流量控制器销量由2022年686台增至2024年17961台，占国产厂商细分市场约55%；压电比例阀已用于国内头部光刻机厂商。",
+            "reason": "半导体设备零部件国产替代从MFC向真空泵、阀门延伸。",
+            "source": "https://m.10jqka.com.cn/20261126/c682223034.shtml"
+          },
+          {
+            "no": "EQUIP-05",
+            "title": "SEMI预计2026年全球半导体设备市场1659亿美元，同比增23.2%",
+            "event": "行业日报援引SEMI预测，2026年半导体设备市场规模将达1659亿美元、同比增长23.2%；国内晶圆厂扩产与国产设备验证导入同步推进，高端零部件仍为主要短板。",
+            "reason": "设备景气度由晶圆厂扩产与国产替代双轮驱动。",
+            "source": "http://mp.weixin.qq.com/s?__biz=Mzg4MjYyNjI5Nw==&mid=2247483927&idx=1&sn=88ea802b0f3e72bb7185eb60c0a441c4&chksm=ce0727e7655e398d6a39f0bcaf9bf80a038e4d9866e01778f10ff8408784c0786e25d03dc0e2#rd"
+          }
+        ]
+      }
+    ]
+  },
+  "economy": {
+    "schema_version": 1,
+    "date": "2026-11-26",
+    "type": "economy",
+    "generated_at": "2026-11-26T08:44:49+08:00",
+    "title": "经济日报（2026-11-26）· news-digest 精选",
+    "summary": "news-digest 检索整理（2026-11-26），条目均附原文来源",
+    "sections": [
+      {
+        "key": "domestic",
+        "label": "国内经济热点",
+        "items": [
+          {
+            "no": "CN-01",
+            "title": "A股11月25日失守3500点，成交缩至1.38万亿元",
+            "event": "周三沪指低开低走收跌2.03%报3476.47点，创16个月新低；创业板指跌4.19%、科创综指跌5.93%，两市成交1.383万亿元、较前日缩量2720亿元，超4900只个股下跌。",
+            "reason": "外部科技股冲击与内部筹码出清共振，市场风险偏好明显回落。",
+            "source": "https://www.163.com/dy/article/LCKGTTPD051492LM.html"
+          },
+          {
+            "no": "CN-02",
+            "title": "央行单日净投放4010亿元呵护跨月流动性",
+            "event": "11月25日央行开展6170亿元隔夜逆回购、5000亿元7天期逆回购和8000亿元1年期MLF，扣除到期与偿还后当日净投放约4010亿元；证券时报指出操作重在平滑月末扰动而非政策转向。",
+            "reason": "流动性充裕信号有助于稳定资金面预期，但不能直接决定股价走势。",
+            "source": "https://finance.sina.com.cn/jjxw/2026-11-26/doc-inizyqvv1655559.shtml"
+          },
+          {
+            "no": "CN-03",
+            "title": "1—10月全行业对外直接投资9411.3亿元，同比下降8.9%",
+            "event": "商务部、外汇局数据显示，1—10月我国全行业对外直接投资9411.3亿元，同比下降8.9%；其中非金融类直接投资7576.7亿元，下降13.2%。",
+            "reason": "对外投资回落反映外部环境与企业在手项目节奏变化。",
+            "source": "https://www.163.com/dy/article/LCL285MC05199O55.html"
+          },
+          {
+            "no": "CN-04",
+            "title": "前三季度服务消费占比升至47.3%，票根经济带动增量",
+            "event": "人民日报报道，前三季度居民人均服务性消费支出10565元、同比增长4.6%，占消费支出比重47.3%；北京鸟巢75场大型赛演拉动综合消费超189亿元。",
+            "reason": "消费增量从商品向体验与服务转移，成为内需重要支撑。",
+            "source": "https://finance.people.com.cn/n1/2026/1126/c1004-40840526.html"
+          },
+          {
+            "no": "CN-05",
+            "title": "11月以来123家上市公司获回购增持专项贷款承诺函",
+            "event": "截至11月25日，11月以来已有123家上市公司取得股票回购增持专项贷款承诺函，银行加快投放相关贷款；震裕科技、赣锋锂业、复星医药等近期新获承诺函。",
+            "reason": "产业资本以真金白银稳定预期，但托底力度仍需量能确认。",
+            "source": "http://mp.weixin.qq.com/s?__biz=Mzk4ODQ3MzI2Mw==&mid=2247484954&idx=1&sn=3416f3e5146aed241e885da0459feb6f&chksm=c43488d89c5cf0f5184cb0527a43355e560606fddaacd145fba4ae5b55e608b5b30c7dbb47cc#rd"
+          }
+        ]
+      },
+      {
+        "key": "overseas",
+        "label": "国际经济热点",
+        "items": [
+          {
+            "no": "INT-01",
+            "title": "美股上演V字反弹，道指翻红英伟达跌3.91%",
+            "event": "美东11月25日美股低开高走，道指盘中跌超1100点后收涨0.33%报50182.95点，标普跌0.25%、纳指跌0.62%；英伟达收跌3.91%，市值单日蒸发约1468亿美元。",
+            "reason": "AI硬件抛压有所消化但估值分歧仍大，市场进入资产负债表分化阶段。",
+            "source": "https://www.mrjjxw.com/articles/2026-11-26/4659238.html"
+          },
+          {
+            "no": "INT-02",
+            "title": "美国10月核心PCE同比3.3%，三季度GDP上修至4.3%",
+            "event": "美国10月核心PCE物价指数同比上涨3.3%，为2023年11月以来最高；整体PCE同比3.8%。三季度实际GDP年化增速由3.4%上修至4.3%，强化美联储12月加息预期。",
+            "reason": "通胀黏性与增长上修并存，全球无风险利率中枢面临上行压力。",
+            "source": "https://www.cnr.cn/jingji/ycbd/20261126/t20261126_527883359.shtml"
+          },
+          {
+            "no": "INT-03",
+            "title": "美联储褐皮书：8个辖区温和增长，薪资涨幅扩大",
+            "event": "美联储11月25日发布褐皮书，12个辖区中8个报告轻度至中度增长，消费基本持平；薪资和福利涨幅由轻微升至温和，能源、运输、保险与关税持续推高成本。",
+            "reason": "关键变化在薪资涨幅扩大，进一步支撑加息预期。",
+            "source": "https://www.chnfund.com/article/AR89cf0747-eba5-b4a0-d290-3a25275e0186"
+          },
+          {
+            "no": "INT-04",
+            "title": "标普将英伟达AA评级列入负面观察，CDS创历史新高",
+            "event": "标普全球评级把英伟达AA发行人评级及高级无抵押债务评级列入负面信用观察，认为其对创始人依赖及接班安排存在风险，90天内可能下调一级；英伟达五年期CDS成本创历史新高。",
+            "reason": "AI龙头的信用与治理风险开始被独立定价。",
+            "source": "https://www.mrjjxw.com/articles/2026-11-26/4659238.html"
+          },
+          {
+            "no": "INT-05",
+            "title": "国际油价大涨，胡塞袭击沙特炼油厂推升风险溢价",
+            "event": "11月25日WTI原油结算价涨1.99%至83.68美元/桶，布伦特涨3.51%至94.61美元/桶；也门胡塞武装袭击沙特最大炼油厂并威胁红海港口。",
+            "reason": "地缘冲突与供应担忧盖过需求疲弱预期，能源成本压力回升。",
+            "source": "https://news.qq.com/rain/a/20261126A04IYJ00"
+          }
+        ]
+      }
+    ]
+  },
+  "ai": {
+    "schema_version": 1,
+    "date": "2026-11-26",
+    "type": "ai",
+    "generated_at": "2026-11-26T08:44:49+08:00",
+    "title": "AI日报（2026-11-26）· news-digest 精选",
+    "summary": "news-digest 检索整理（2026-11-26），条目均附原文来源",
+    "sections": [
+      {
+        "key": "industry",
+        "label": "AI 行业动态",
+        "items": [
+          {
+            "no": "AI-01",
+            "title": "Sand.ai发布MAGI-2音视频统一模型，1080P定价0.5元/秒",
+            "event": "11月25日Sand.ai发布总参数480B、每Token激活约28B的MAGI-2，支持30秒1080P/25fps原生音视频联合生成，Artificial Analysis图生视频得分1165超过Seedance 2.5，官方称将开放全量权重并已适配海光、摩尔线程。",
+            "reason": "价格降至主流方案约十分之一，视频生成竞争转向单位任务成本。",
+            "source": "http://mp.weixin.qq.com/s?__biz=MzU4NTExMzQ0OQ==&mid=2247484318&idx=1&sn=6d356c8cbda3c3bd9044048042c97992&chksm=fcf0cc00e8db71db2d79a6ba576b059d18dc750f77ea63109549f24d1c06f6920a98145a076a#rd"
+          },
+          {
+            "no": "AI-02",
+            "title": "OpenAlpha测试Private Inference，隔离客户提示与数据",
+            "event": "OpenAI向小部分客户Alpha测试私密推理，结合机密计算与可验证控制，在模型运行期间隔离客户提示与数据，并配套零数据保留与安全处理，OpenAI人员无需接触底层内容。",
+            "reason": "企业敏感场景使用前沿模型的合规门槛下降。",
+            "source": "http://mp.weixin.qq.com/s?__biz=Mzk3NTQwMDE4NA==&mid=2247485391&idx=1&sn=259e77ab0eaed260964492842a65405b&chksm=c54342be6db472a1d2a22ad717830aa9a336a4ce919e1141c091bc55e3439c1cad2d02026d5a#rd"
+          },
+          {
+            "no": "AI-03",
+            "title": "OpenAI公布GPT-6蛋白质设计预印本，35个设计检出结合",
+            "event": "OpenAI预印本称GPT-6系列仅凭推理与代码完成蛋白质结构与序列设计，322个设计中35个在湿实验检出与靶点结合迹象，并纳入Preparedness框架评估生物安全风险；特异性、稳定性与活性未验证。",
+            "reason": "通用推理模型首次进入蛋白设计流水线，但结论需湿实验复核。",
+            "source": "http://mp.weixin.qq.com/s?__biz=MzU4NTExMzQ0OQ==&mid=2247484318&idx=1&sn=6d356c8cbda3c3bd9044048042c97992&chksm=fcf0cc00e8db71db2d79a6ba576b059d18dc750f77ea63109549f24d1c06f6920a98145a076a#rd"
+          },
+          {
+            "no": "AI-04",
+            "title": "腾讯混元开源Hy4 flash量化权重，224B可跑64GB设备",
+            "event": "11月25日腾讯混元通过AngelSlim开源Hy4 flash的GGUF量化权重与推理代码，最小版本约为原始权重30%，Q3_K为144.70GiB，借助Strata可在64GB Mac mini运行，评测与原模型差距不超过0.4分。",
+            "reason": "旗舰模型从API调用转向可本地部署的完整权限包。",
+            "source": "http://mp.weixin.qq.com/s?__biz=MzU4NTExMzQ0OQ==&mid=2247484318&idx=1&sn=6d356c8cbda3c3bd9044048042c97992&chksm=fcf0cc00e8db71db2d79a6ba576b059d18dc750f77ea63109549f24d1c06f6920a98145a076a#rd"
+          },
+          {
+            "no": "AI-05",
+            "title": "小鹏发布图灵具身智能架构，IRON定档2027年1月量产",
+            "event": "11月25日小鹏科技日发布图灵具身智能架构（System 2推理/System 1策略/System 0控制），IRON有76个自由度、超1500个触觉触点，三颗图灵AI芯片端侧运算，计划2027年1月硬件量产、一季度进门店导购实习。",
+            "reason": "人形机器人竞争从单点演示转向岗位交付与量产成本。",
+            "source": "https://news.qq.com/rain/a/20261126A04WJP00"
+          },
+          {
+            "no": "AI-06",
+            "title": "三位xAI前联合创始人创办Epochal AI，获1亿美元融资",
+            "event": "张国栋、戴子航、Manuel Kroiss创办的Epochal AI宣布成立并获1亿美元融资（由张国栋提供），首款产品Time Portal归档逾1万亿条带时间戳网页、跨度30年，347项回放测试相关系数0.98。",
+            "reason": "历史网页回放数据成为训练预测类模型的新资产形态。",
+            "source": "http://mp.weixin.qq.com/s?__biz=MzU4NTExMzQ0OQ==&mid=2247484318&idx=1&sn=6d356c8cbda3c3bd9044048042c97992&chksm=fcf0cc00e8db71db2d79a6ba576b059d18dc750f77ea63109549f24d1c06f6920a98145a076a#rd"
+          },
+          {
+            "no": "AI-07",
+            "title": "Axios：OpenAI与Anthropic内部讨论放缓前沿模型发布",
+            "event": "Axios援引20余名知情人士称两家公司内部已有能力显著超出公开版本的前沿模型，部分员工讨论放慢训练或推迟发布，两家公司均未确认停训或停发；阿莫代伊同日发文主张把界限划在递归自我改进上。",
+            "reason": "能力增速快于安全治理，发布节奏成为行业公共议题。",
+            "source": "http://mp.weixin.qq.com/s?__biz=MzU4NTExMzQ0OQ==&mid=2247484318&idx=1&sn=6d356c8cbda3c3bd9044048042c97992&chksm=fcf0cc00e8db71db2d79a6ba576b059d18dc750f77ea63109549f24d1c06f6920a98145a076a#rd"
+          },
+          {
+            "no": "AI-08",
+            "title": "AWS修复Kiro Web高危命令注入漏洞",
+            "event": "AWS披露并修复CVE-2026-136267：Kiro Web对操作系统命令中的特殊元素处理不当，远程未认证攻击者可借构造内容执行任意命令，CVSS 4.0评分7.5，影响5月18日至10月30日版本，基础设施侧已修复。",
+            "reason": "智能体开发环境成为新攻击面，权限最小化需前置。",
+            "source": "http://mp.weixin.qq.com/s?__biz=MzU4NTExMzQ0OQ==&mid=2247484318&idx=1&sn=6d356c8cbda3c3bd9044048042c97992&chksm=fcf0cc00e8db71db2d79a6ba576b059d18dc750f77ea63109549f24d1c06f6920a98145a076a#rd"
+          },
+          {
+            "no": "AI-09",
+            "title": "Cognition发布SWE-2.1，编程基准大幅提升",
+            "event": "Cognition发布Devin背后的编程模型SWE-2.1，Terminal-Bench 4.1得分由24.2升至50.0，ExploitBench由36.1%升至80%，分Lightning高速版与Cyber防御安全版等三个变体。",
+            "reason": "编码智能体能力快速跃升，同步放大攻防两端影响。",
+            "source": "http://mp.weixin.qq.com/s?__biz=Mzk3NTQwMDE4NA==&mid=2247485391&idx=1&sn=259e77ab0eaed260964492842a65405b&chksm=c54342be6db472a1d2a22ad717830aa9a336a4ce919e1141c091bc55e3439c1cad2d02026d5a#rd"
+          },
+          {
+            "no": "AI-10",
+            "title": "微软披露Rocket强化学习框架，支撑3万亿参数模型后训练",
+            "event": "微软披露内部强化学习框架Rocket，支撑3万亿参数MAI Base 2后训练，单日完成113万次rollout，MoE专家权重以MXFP8存储，硬件故障约5分钟自动恢复。",
+            "reason": "超大规模后训练的工程可靠性成为模型能力之外的竞争点。",
+            "source": "http://mp.weixin.qq.com/s?__biz=Mzk3NTQwMDE4NA==&mid=2247485391&idx=1&sn=259e77ab0eaed260964492842a65405b&chksm=c54342be6db472a1d2a22ad717830aa9a336a4ce919e1141c091bc55e3439c1cad2d02026d5a#rd"
+          }
+        ]
+      }
+    ]
+  },
+  "technology": {
+    "schema_version": 1,
+    "date": "2026-11-26",
+    "type": "technology",
+    "generated_at": "2026-11-26T08:44:49+08:00",
+    "title": "科技日报（2026-11-26）· news-digest 精选",
+    "summary": "news-digest 检索整理（2026-11-26），条目均附原文来源",
+    "sections": [
+      {
+        "key": "tech",
+        "label": "科技前沿动态",
+        "items": [
+          {
+            "no": "TECH-01",
+            "title": "清华团队量子精密测量精度较标准量子极限提升约9倍",
+            "event": "清华大学孙麓岩团队联合中科大、浙江大学提出Fock空间量子共焦显微方案，在超导量子电路中制备平均光子数达500的聚焦态，位移测量精度超越标准量子极限19.20±0.20 dB（约9倍），成果11月26日在线发表于《自然》。",
+            "reason": "为大规模量子态制备与读出提供可扩展实验框架，可用于暗物质搜索与弱力探测。",
+            "source": "https://www.xinhuanet.com/20261126/1fb2d445be874b35adb1e25884d78d3f/c.html"
+          },
+          {
+            "no": "TECH-02",
+            "title": "中外航天员首次“太空握手”，神二十四乘组进驻天宫",
+            "event": "11月25日14时35分，神舟二十三号乘组打开舱门欢迎神舟二十四号3名航天员入驻，其中包括首位到访中国空间站的外籍航天员；这是中国航天史上第9次太空会师。",
+            "reason": "空间站国际合作打开新局面，为后续长期驻留与实验铺路。",
+            "source": "https://m.gmw.cn/2026-11/26/content_1304589299.htm"
+          },
+          {
+            "no": "TECH-03",
+            "title": "神舟二十四号首次开展4项中巴合作科学项目",
+            "event": "任务期间计划开展90项实验，首次在空间站开展4项中巴合作项目，涵盖蓝藻空间培养、32份藜麦种子舱外暴露、石墨烯杂化复合材料与自修复碳纤维复合材料在轨实验。",
+            "reason": "国际合作项目进入在轨验证阶段，产出可供深空基地与材料选型参考。",
+            "source": "http://m2.people.cn/news/default.html?s=MV8xXzQwODQwNTMzXzEwMDRfMTc5NTY0NDM2OQ==&from=tencent"
+          },
+          {
+            "no": "TECH-04",
+            "title": "岭南首次发现丹尼索瓦人化石，距今约10.1万年",
+            "event": "11月26日公布的研究显示，广东境内洞穴遗址出土人类化石经测年约距今10.1万年，部分标本被判定属于丹尼索瓦人，是该人群在东亚南部的关键实证。",
+            "reason": "改写东亚古人类迁徙图景，提示当地可能仍有相关遗存。",
+            "source": "http://mp.weixin.qq.com/s?__biz=MzUxNDcwNjMzOA==&mid=2247485637&idx=1&sn=2965373a63f0c9ad64467163e663eb6a&chksm=f8c8ded32e247fc6ea3f4d237496a4ff81ad6f4e1b9cd5bd732243ee39e35dfe83bcbc72711a#rd"
+          },
+          {
+            "no": "TECH-05",
+            "title": "我国新材料研发提速，550亿元产品进入市场",
+            "event": "央视报道，新型耐蚀钢耐蚀性能较传统桥梁钢提升80%、寿命提升5至10倍；高纯电子级多晶硅稳定量产，超薄光伏玻璃减薄20%，金刚石铜复合材料导热比纯铜提升一倍并首次大规模用于超算。",
+            "reason": "关键材料从实验室走向工程应用，支撑高端制造自主化。",
+            "source": "https://m.gmw.cn/2026-11/26/content_1304589291.htm"
+          },
+          {
+            "no": "TECH-06",
+            "title": "国防科工局召开重型与重复使用运载火箭推进会",
+            "event": "国家国防科工局近日召开工作推进会，指出重型运载火箭、重复使用运载火箭取得阶段性成果，要求提升大运力、低成本、高频次进入空间能力，加强关键技术攻关与验证。",
+            "reason": "进入空间能力建设提速，牵动发射成本与商业航天生态。",
+            "source": "https://news.qq.com/rain/a/20261126A04Z3P00"
+          },
+          {
+            "no": "TECH-07",
+            "title": "FCC授权SpaceX部署最多100万颗数据中心卫星",
+            "event": "美国联邦通信委员会授权SpaceX部署最多100万颗用于数据中心的卫星，轨道高度500至2000公里，采用太阳能直供、星间激光链路与射频备份；当前在轨卫星约1.69万颗。",
+            "reason": "轨道算力从概念走向许可阶段，散热与频谱合规仍是变数。",
+            "source": "https://news.qq.com/rain/a/20261126A04Z3P00"
+          },
+          {
+            "no": "TECH-08",
+            "title": "Neuralink获FDA批准推出Link关键性试验",
+            "event": "马斯克旗下脑机接口公司Neuralink获FDA批准推出Link，这是美国首个植入式脑机接口的关键性试验；相较此前PRIME早期可行性研究，Link若成功可支撑后续上市申请。",
+            "reason": "植入式脑机接口从可行性验证迈向注册路径。",
+            "source": "https://news.qq.com/rain/a/20261126A04Z3P00"
+          },
+          {
+            "no": "TECH-09",
+            "title": "量子技术“慧眼”智能体在杭州发布",
+            "event": "11月25日量子技术“慧眼”智能体在杭州发布，可辅助科研人员检索量子领域文献、梳理技术路线并生成分析报告；研发方强调其定位为科研助理，关键判断仍由研究者作出。",
+            "reason": "科研智能体向垂直学科渗透，但结论仍需专家把关。",
+            "source": "http://mp.weixin.qq.com/s?__biz=MzUxNDcwNjMzOA==&mid=2247485637&idx=1&sn=2965373a63f0c9ad64467163e663eb6a&chksm=f8c8ded32e247fc6ea3f4d237496a4ff81ad6f4e1b9cd5bd732243ee39e35dfe83bcbc72711a#rd"
+          },
+          {
+            "no": "TECH-10",
+            "title": "第二十八届高交会开幕，百余场新品首发首秀",
+            "event": "11月26日至28日高交会在深圳国际会展中心举办，吸引120余个国家和地区5000余家科创主体参展，展会面积40万平方米，将举办200余场论坛、对接与新品首发活动。",
+            "reason": "技术成果交易与全球采购对接加速，观察产业化落地窗口。",
+            "source": "https://news.qq.com/rain/a/20261126A04JEU00"
+          }
+        ]
+      }
+    ]
+  },
+  "digital": {
+    "schema_version": 1,
+    "date": "2026-11-26",
+    "type": "digital",
+    "generated_at": "2026-11-26T08:44:49+08:00",
+    "title": "数码日报（2026-11-26）· news-digest 精选",
+    "summary": "news-digest 检索整理（2026-11-26），条目均附原文来源",
+    "sections": [
+      {
+        "key": "digital",
+        "label": "数码产品动态",
+        "items": [
+          {
+            "no": "DIGI-01",
+            "title": "摩托罗拉Signature 27美国需求超预期，交付推迟至12月",
+            "event": "摩托罗拉确认旗舰Signature 27在美国需求超预期，官网显示12月8日发货、百思买部分地区12月11日发货；该机配7000mAh电池、骁龙8 Elite Extreme Gen 6与2亿像素长焦，承诺七年系统更新。",
+            "reason": "旗舰新机首发供需失衡，交付节奏成为竞争变量。",
+            "source": "https://news.qq.com/rain/a/20261126A04HIW00"
+          },
+          {
+            "no": "DIGI-02",
+            "title": "峰瞰智能将在高交会发布桌面级国产AI主机PeakStation",
+            "event": "峰瞰智能11月26日在高交会发布PeakStation，搭载由智驾芯片改造的低功耗AI推理芯片，内部测试称性能对标英伟达DGX Spark；近期小批量交付，预计明年一季度规模量产。",
+            "reason": "智驾芯片进入桌面AI市场，为企业本地部署提供新硬件选择。",
+            "source": "https://www.163.com/dy/article/LCKIJOPT0512MLBG.html"
+          },
+          {
+            "no": "DIGI-03",
+            "title": "三星Galaxy A18在澳大利亚上市，399澳元起",
+            "event": "三星在澳大利亚推出Galaxy A18，4G/128GB版399澳元，配6.7英寸FHD+ AMOLED、5000万主摄、LPDDR5与IP64，支持Circle to Search及Gemini、Perplexity等智能体，承诺6代系统升级与6年安全更新。",
+            "reason": "AI功能与长周期支持加速下沉到入门价位段。",
+            "source": "https://channellife.com.au/story/samsung-launches-galaxy-a18-in-australia-from-aud-399"
+          },
+          {
+            "no": "DIGI-04",
+            "title": "宝马新世代首款国产车型iX3上市交付，26.99万元起",
+            "event": "宝马新世代iX3上市交付，售价26.99万元起，采用全域800V架构，全系搭载Momenta纯视觉智驾，CLTC最高续航919km。",
+            "reason": "豪华品牌纯电本土化提速，价格与智驾配置直接对标新势力。",
+            "source": "https://www.ithome.com/1/032/541.htm"
+          },
+          {
+            "no": "DIGI-05",
+            "title": "李想宣布理想车型更新节奏改为两年一次",
+            "event": "理想汽车CEO李想宣布车型更新节奏调整为两年一次；同期公司发布三季报，营收288亿元同比增5.4%，车辆毛利率回升至15.3%，经营亏损收窄至6.996亿元。",
+            "reason": "产品周期拉长反映成本压力，财报改善提供调整空间。",
+            "source": "https://www.ithome.com/1/032/541.htm"
+          },
+          {
+            "no": "DIGI-06",
+            "title": "华为MatePad Mini 2传搭载麒麟9030系处理器",
+            "event": "数码博主11月25日透露，华为MatePad Mini 2将搭载麒麟9030系处理器，支持SIM卡（部分版本或支持eSIM），发布时间待定。",
+            "reason": "小尺寸平板补齐国产芯片与蜂窝连接，定位便携生产力。",
+            "source": "https://www.ithome.com/1/032/541.htm"
+          },
+          {
+            "no": "DIGI-07",
+            "title": "华为星芒O1标准版备案，7英寸大屏配麒麟9020系",
+            "event": "消息称华为星芒O1标准版已备案，定位纤薄大屏，采用7英寸1.5K等深四曲屏与麒麟9020系处理器；星芒品牌将覆盖全场景产品，走中高端路线。",
+            "reason": "新品牌与产品备案显示华为中高端产品线继续扩张。",
+            "source": "https://www.ithome.com/1/032/541.htm"
+          },
+          {
+            "no": "DIGI-08",
+            "title": "小米新SU7 Ultra申报图曝光",
+            "event": "小米新SU7 Ultra申报图曝光，车身尺寸提供5086/5137/5315×1970/2014×1465/1509mm多种组合，外观与现款基本一致。",
+            "reason": "多规格申报暗示配置分层，为后续改款上市做准备。",
+            "source": "https://www.163.com/dy/article/LCL6QB6C051191D6.html"
+          },
+          {
+            "no": "DIGI-09",
+            "title": "三星One UI 9.5测试中，或修复电池健康度异常下降",
+            "event": "三星客服在社区答复称，Galaxy S24、S25用户反馈的电池健康度快速下降问题将通过即将推出的One UI 9.5更新解决；该问题自One UI 9.0推送后出现。",
+            "reason": "系统更新修复既有设备体验，影响存量用户换机意愿。",
+            "source": "https://www.163.com/dy/article/LCL6QB6C051191D6.html"
+          },
+          {
+            "no": "DIGI-10",
+            "title": "全球首款自动驾驶摩托车亮相广州",
+            "event": "IT之家早报披露，全球首款自动驾驶摩托车在广州亮相，成为高交会前后智能出行硬件的新看点。",
+            "reason": "两轮出行开始引入自动驾驶能力，法规与场景落地仍待观察。",
+            "source": "https://www.ithome.com/1/032/541.htm"
+          }
+        ]
+      }
+    ]
+  },
+  "sports": {
+    "schema_version": 1,
+    "date": "2026-11-26",
+    "type": "sports",
+    "generated_at": "2026-11-26T08:44:49+08:00",
+    "title": "体育日报（2026-11-26）· news-digest 精选",
+    "summary": "news-digest 检索整理（2026-11-26），条目均附原文来源",
+    "sections": [
+      {
+        "key": "sports",
+        "label": "体育新闻",
+        "items": [
+          {
+            "no": "SPORT-01",
+            "title": "欧冠里尔2-1逆转拜仁，德甲豪门遭遇赛季欧冠首败",
+            "event": "11月26日凌晨欧冠联赛阶段第5轮，里尔凭上田绮世扳平与帕夫洛维奇乌龙2-1击败拜仁，拜仁五轮仅积8分、排名降至第15。",
+            "reason": "人员不整下的防守失误让争冠格局出现变化。",
+            "source": "https://news.qq.com/rain/a/20261126A04TOU00"
+          },
+          {
+            "no": "SPORT-02",
+            "title": "曼联2-2葡萄牙体育，波切蒂诺上任仍未尝胜绩",
+            "event": "曼联客场2-2战平葡萄牙体育，B费3分钟双响反超，但拉门斯黄油手送礼、苏亚雷斯扳平，蒂莱曼斯染红；曼联各赛事近13场仅1胜。",
+            "reason": "新帅防线调整未见效，纪律问题持续拖累球队。",
+            "source": "https://sports.cctv.com/2026/11/26/ARTI5kq7fjaDYL4Bw5YMyZce261126.shtml"
+          },
+          {
+            "no": "SPORT-03",
+            "title": "利物浦客场3-0完胜布鲁日，伊萨克双响",
+            "event": "欧冠第5轮利物浦3-0击败布鲁日，索博斯洛伊助攻伊萨克首开纪录，维尔茨破门，伊萨克完成双响。",
+            "reason": "进攻端多点开花，客场全取三分巩固出线位置。",
+            "source": "https://www.ttplus.cn/publish/app/data/2026/11/26/714885/os_news.html"
+          },
+          {
+            "no": "SPORT-04",
+            "title": "巴萨4-1沙巴巴库，各赛事五连胜",
+            "event": "巴萨客场4-1取胜，戈登两次补射破门，阿德耶米与热苏斯建功，米克尔斯替补扳回一城；球队欧冠两连胜、各赛事五连胜。",
+            "reason": "首发之外替补贡献稳定，板凳深度成为连胜支撑。",
+            "source": "https://www.ttplus.cn/publish/app/data/2026/11/26/714885/os_news.html"
+          },
+          {
+            "no": "SPORT-05",
+            "title": "国米2-0斯图加特，取得欧冠三连胜",
+            "event": "国米主场2-0击败斯图加特，苏契奇点射命中、迪马尔科助攻劳塔罗锁定胜局，巴斯托尼伤退。",
+            "reason": "防守零封加稳定转换，出线形势趋于明朗。",
+            "source": "https://news.qq.com/rain/a/20261126A04TOU00"
+          },
+          {
+            "no": "SPORT-06",
+            "title": "巴黎2-2罗马，欧冠四连胜终结",
+            "event": "巴黎圣日耳曼主场2-2战平罗马，埃尔莫索闪击、扎巴尔尼扳平，登贝莱点射反超后维蒂尼亚送点、马伦点射扳平。",
+            "reason": "点球与定位球防守漏洞让巴黎错失连胜。",
+            "source": "https://news.qq.com/rain/a/20261126A04TOU00"
+          },
+          {
+            "no": "SPORT-07",
+            "title": "凯尔特人131-116奇才，塔图姆41分终结四连败",
+            "event": "塔图姆砍下赛季新高41分、6篮板8助攻，凯尔特人半场建立31分优势，末节顶住奇才反扑，战绩升至东部第二并终结四连败。",
+            "reason": "核心状态回暖叠加三分火力，球队重回东部前列。",
+            "source": "https://sports.sina.cn/2026-11-26/detail-inizyqvz4080412.d.html"
+          },
+          {
+            "no": "SPORT-08",
+            "title": "独行侠120-101掘金，弗拉格24+6+12比肩詹姆斯东契奇",
+            "event": "NBA杯小组赛独行侠客场大胜掘金取得三连胜，弗拉格17投8中得24分6篮板12助攻，成为史上第三位青少年阶段多次砍下20+5+12的球员。",
+            "reason": "新生代全能表现带动球队以3胜0负升至西部A组第一。",
+            "source": "https://sports.sina.cn/2026-11-26/detail-inizyvcx3983472.d.html"
+          },
+          {
+            "no": "SPORT-09",
+            "title": "活塞104-86魔术，奥萨尔·汤普森创队史43年纪录",
+            "event": "奥萨尔·汤普森仅得6分但贡献10篮板7助攻4封盖，成为活塞队史自1983年兰比尔之后第二位得分不足10分达成该组数据的球员。",
+            "reason": "防守与策应价值突破传统得分口径的评价体系。",
+            "source": "https://fans.sports.qq.com/post.htm?id=1882831284956299442&mid=255"
+          },
+          {
+            "no": "SPORT-10",
+            "title": "中国男篮公布对沙特12人大名单，王哲林无缘",
+            "event": "中国男篮提交对阵沙特队的12人名单，周琦、张镇麟、胡明轩、赵继伟在列，王哲林、庞峥麟落选；第一阶段球队3胜3负列B组第三。",
+            "reason": "阵容调整显示教练组对机动性与防守强度的选择。",
+            "source": "https://news.qq.com/rain/a/20261126A04UZS00"
+          }
+        ]
+      }
+    ]
+  },
+  "policy": {
+    "schema_version": 1,
+    "date": "2026-11-26",
+    "type": "policy",
+    "generated_at": "2026-11-26T08:44:49+08:00",
+    "title": "政策日报（2026-11-26）· news-digest 精选",
+    "summary": "news-digest 检索整理（2026-11-26），条目均附原文来源",
+    "sections": [
+      {
+        "key": "policy",
+        "label": "国内政策",
+        "items": [
+          {
+            "no": "POL-01",
+            "title": "三部委印发《新一代通信网建设实施方案》，2030年建成性能领先网络",
+            "event": "工信部联合国家网信办、国家发改委印发方案，要求到2030年建成覆盖完善、性能领先的新一代通信网，以5G-A/6G、万兆光网、卫星互联网为核心支撑，系统建强基础、空间、国际、融合四张网络。",
+            "reason": "明确未来五年信息基础设施投资与建设主线。",
+            "source": "https://finance.sina.com.cn/jjxw/2026-11-26/doc-inizzftm9083084.shtml"
+          },
+          {
+            "no": "POL-02",
+            "title": "新一轮国家综合货运枢纽补链强链首批城市公布",
+            "event": "交通运输部办公厅等多部门联合印发通知，北京、呼和浩特和包头、南京、杭州、合肥和芜湖、烟台、商丘、贵阳入选第一批城市，要求细化任务分解、加强中央奖补资金监管。",
+            "reason": "物流枢纽网络补短板进入实施阶段，带动多式联运投资。",
+            "source": "https://www.mot.gov.cn/xinwen/jiaotongyaowen/202611/t20261126_4228516.html"
+          },
+          {
+            "no": "POL-03",
+            "title": "五部门印发《海洋产业投融资指导目录（2026版）》",
+            "event": "自然资源部会同发改委、人民银行等印发目录，覆盖11个重点海洋产业领域、42个小类共185条，并单设“前沿方向”纳入海底仓库、海水制氢、涉海智能隐身材料。",
+            "reason": "为海洋产业投融资与地方配套政策提供明确指引。",
+            "source": "https://news.gmw.cn/2026-11/26/content_39121843.htm"
+          },
+          {
+            "no": "POL-04",
+            "title": "市场监管总局印发高质量认证项目“揭榜挂帅”工作方案",
+            "event": "方案聚焦现代化产业体系建设需要，实行年度限额入库、滚动建设动态调整，培育高质量认证项目与高水平认证机构，推动认证服务业向价值链高端延伸。",
+            "reason": "以认证制度供给支撑先进制造与服务业融合发展。",
+            "source": "https://news.qq.com/rain/a/20261126A04F1W00"
+          },
+          {
+            "no": "POL-05",
+            "title": "再生资源回收体系迎升级，三级网络与“两网融合”推进",
+            "event": "商务部等部门《意见》明确完善“回收站点—中转站—分拣中心”三级网络，推广“互联网+回收”“以车代库”等模式，并加紧研究修订《再生资源回收管理办法》。",
+            "reason": "回收体系规范化有助提升再生原料品质与合规处置率。",
+            "source": "http://paper.ce.cn/pad/content/202611/26/content_342518.html"
+          },
+          {
+            "no": "POL-06",
+            "title": "国家数据局部署全国一体化算力网建设",
+            "event": "国家数据局“十五五”行动计划提出，2030年数字经济核心产业增加值占GDP比重达12.5%，并建设全国一体化算力网，推动算力资源统筹调度。",
+            "reason": "算力基础设施从分散建设转向全国统一调度。",
+            "source": "http://mp.weixin.qq.com/s?__biz=Mzg4MjYyNjI5Nw==&mid=2247483927&idx=1&sn=88ea802b0f3e72bb7185eb60c0a441c4&chksm=ce0727e7655e398d6a39f0bcaf9bf80a038e4d9866e01778f10ff8408784c0786e25d03dc0e2#rd"
+          },
+          {
+            "no": "POL-07",
+            "title": "外交部回应美方加征关税计划：反对“产能过剩”政治操弄",
+            "event": "11月25日外交部发言人郭嘉昆表示，关税战、贸易战不符合任何一方利益，所谓“产能过剩”是伪命题，中方反对以此为借口进行政治操弄，呼吁在平等尊重互惠基础上协商解决。",
+            "reason": "对外经贸立场清晰，影响后续谈判与产业链预期。",
+            "source": "https://news.qq.com/rain/a/20261126A047NZ00"
+          },
+          {
+            "no": "POL-08",
+            "title": "五个专业学位类别试点以实践成果申请学位",
+            "event": "国务院学位办推进以实践成果申请学位试点扩围，首批在翻译、农业、临床医学、会计、艺术五个类别开展，按照“试点—评估—推广”分步推进，不宜一刀切。",
+            "reason": "专业学位评价从论文导向转向实践成果导向。",
+            "source": "https://news.qq.com/rain/a/20261124A0192300"
+          },
+          {
+            "no": "POL-09",
+            "title": "广州互联网法院发布涉网平台协助执行工作指引",
+            "event": "指引明确平台在账户查控、数据提供、协助冻结等环节的配合义务、材料形式与办理时限，针对涉网案件“人找不到、钱查不到”问题。",
+            "reason": "平台协助执行标准化有助提升网络司法执行效率。",
+            "source": "http://mp.weixin.qq.com/s?__biz=MzUxNDcwNjMzOA==&mid=2247485637&idx=1&sn=2965373a63f0c9ad64467163e663eb6a&chksm=f8c8ded32e247fc6ea3f4d237496a4ff81ad6f4e1b9cd5bd732243ee39e35dfe83bcbc72711a#rd"
+          },
+          {
+            "no": "POL-10",
+            "title": "发改委：“十五五”新型电网与城市管网投资合计超10万亿元",
+            "event": "国家发改委在“奋进十五五”发布会上表示，“十五五”期间重点推进“六张网”建设，仅新型电网和城市管网两项投资合计将超过10万亿元；今年1—10月全国固定资产投资同比下降8.1%。",
+            "reason": "明确有效投资空间，同时凸显转化机制改革的紧迫性。",
+            "source": "https://www.sfccn.com/2026/11-26/4OMDE0ODlfMjMxNzY4OQ.html"
+          }
+        ]
+      }
+    ]
+  }
+}
